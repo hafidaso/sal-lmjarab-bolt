@@ -1,117 +1,121 @@
-# Sal-lmjarab Healthcare Platform
+# Sal-lmjarab
 
-A comprehensive healthcare platform built with React, TypeScript, and Supabase.
+**Morocco's #1 platform to find, review, and book appointments with trusted doctors and healthcare providers.**
 
-## Demo Accounts
+---
 
-For testing purposes, you can use these demo accounts:
+## 🚀 Elevator Pitch
 
-### Patient Account
-- **Email:** patient@demo.com
-- **Password:** demo123
-- **Role:** Patient
-- **Features:** Access patient dashboard, book appointments, view medical records
+Sal-lmjarab empowers patients in Morocco to make informed healthcare decisions by providing real reviews, transparent information, and easy online appointment booking. The platform fosters healthy competition among doctors and hospitals, driving up the quality of care.
 
-### Doctor/Provider Account
-- **Email:** doctor@demo.com
-- **Password:** demo123
-- **Role:** Provider
-- **Features:** Access provider dashboard, manage appointments, view patient information
+---
 
-### Admin Account
-- **Email:** admin@demo.com
-- **Password:** demo123
-- **Role:** Administrator
-- **Features:** Access admin panel, manage users, moderate reviews
+## 🩺 Inspiration
 
-## Setup Instructions
+There is a general problem with medical services in Arab countries, and specifically in Morocco. The goal of this platform is to create competition between doctors and hospitals to improve the quality of their work.
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd sal-lmjarab
-   ```
+---
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-3. **Set up environment variables**
-   - Copy `.env.example` to `.env`
-   - Fill in your Supabase credentials:
-     ```
-     VITE_SUPABASE_URL=your_supabase_url
-     VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-     ```
+- **Search & Discovery:** Find doctors, hospitals, and pharmacies across Morocco.
+- **Verified Reviews:** Read and write real patient reviews.
+- **Online Booking:** Book appointments with verified providers.
+- **Medical Records:** Access and manage your health data securely.
+- **Telehealth:** Join video consultations with healthcare professionals.
+- **Multilingual:** Use the platform in Arabic (RTL), French, or English.
+- **Role-based Dashboards:** Separate experiences for patients, providers, and admins.
+- **Advanced Search & Maps:** Location-aware search, hospital comparison, and more.
 
-4. **Set up Supabase**
-   - Create a new Supabase project
-   - Run the migrations in the `supabase/migrations` folder
-   - Create the demo users in your Supabase Auth dashboard (or use the registration flow)
+---
 
-5. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+## 🛠️ Built With
 
-## Creating Demo Users in Supabase
+- **Languages:** TypeScript, JavaScript, SQL
+- **Frontend:** React, Vite, Tailwind CSS, Framer Motion
+- **Backend & Database:** Supabase (PostgreSQL, Auth, Storage)
+- **APIs & Integrations:**  
+  - Google Maps  
+  - OpenStreetMap  
+  - LibreTranslate (for free translations)  
+  - Lingo.dev (localization/i18n)  
+  - Custom Telehealth API
+- **Other Libraries:**  
+  - React Router  
+  - React Hot Toast  
+  - Lucide Icons, Tabler Icons
+- **Cloud/Hosting:** Vercel, Netlify, or your preferred provider
 
-To create the demo users in your Supabase project:
+---
 
-1. Go to your Supabase dashboard
-2. Navigate to Authentication > Users
-3. Click "Add user" and create users with these credentials:
-   - patient@demo.com (password: demo123)
-   - doctor@demo.com (password: demo123)
-   - admin@demo.com (password: demo123)
+## 📖 Project Story
 
-4. After creating the auth users, the user profiles will be automatically created when they first log in.
+### What it does
 
-## Features
+Sal-lmjarab is a platform where patients can:
+- Search for healthcare providers
+- Read/write reviews
+- Book appointments
+- Access medical records
+- Communicate securely with providers
 
-- **Multi-role Authentication:** Support for patients, providers, and administrators
-- **Patient Dashboard:** Appointment management, medical records, provider search
-- **Provider Dashboard:** Patient management, appointment scheduling, profile management
-- **Admin Panel:** User management, review moderation, system administration
-- **Advanced Search:** AI-powered search with location awareness
-- **Review System:** Patient reviews with sentiment analysis
-- **Messaging:** Secure communication between patients and providers
-- **Appointment Scheduling:** Real-time booking system
-- **Medical Records:** Secure patient data management
+Providers can:
+- Manage their online presence
+- Streamline appointment scheduling
+- Respond to reviews
 
-## Technology Stack
+### How we built it
 
-- **Frontend:** React 18, TypeScript, Tailwind CSS
-- **Backend:** Supabase (PostgreSQL, Auth, Storage)
-- **State Management:** React Context API
-- **Routing:** React Router v6
-- **UI Components:** Custom components with Tailwind CSS
-- **Icons:** Lucide React
-- **Maps:** Mapbox GL JS
-- **AI Integration:** OpenAI API for chatbot and search
+- User research and interviews to understand pain points
+- Modern, mobile-friendly UI with React and Tailwind CSS
+- Authentication, role-based access, and secure data storage with Supabase
+- Real-time appointment booking, reviews, and messaging
+- Map integrations, telehealth, and advanced search features
+- Lingo.dev and i18n for seamless multilingual support
 
-## Project Structure
+### Challenges we ran into
 
-```
-src/
-├── components/          # Reusable UI components
-├── contexts/           # React contexts (Auth, Theme, Language)
-├── hooks/              # Custom React hooks
-├── pages/              # Page components
-├── services/           # API services and utilities
-├── types/              # TypeScript type definitions
-└── lib/                # Utility libraries
-```
+- Ensuring data privacy and compliance with healthcare regulations
+- Handling right-to-left (RTL) layouts for Arabic
+- Integrating multiple APIs (maps, translation, telehealth)
+- Building a scalable, maintainable codebase
 
-## Contributing
+### Accomplishments that we're proud of
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+- Launched Morocco's first comprehensive doctor review and booking platform
+- Built a fully multilingual, accessible healthcare app
+- Enabled real-time appointment booking and telehealth features
+- Created a transparent review system to empower patients
 
-## License
+### What we learned
+
+- Building a healthcare platform requires a deep understanding of both patient and provider needs.
+- Multilingual support (Arabic, French, English) is essential for accessibility in Morocco.
+- Data privacy and security are critical when handling sensitive health information.
+
+### What's next for Sal-lmjarab
+
+- Expand to more countries in the MENA region
+- Add AI-powered symptom checker and health insights
+- Integrate with insurance providers for seamless claims
+- Launch a mobile app for iOS and Android
+- Continue improving based on user feedback
+
+---
+
+## 🌐 Try It Out
+
+- [Live Demo](https://your-demo-url.com)
+- [GitHub Repository](https://github.com/yourusername/sal-lmjarab)
+
+---
+
+## 📸 Project Media
+
+![Sal-lmjarab Screenshot](public/logo.png)
+
+---
+
+## 📝 License
 
 This project is licensed under the MIT License.
