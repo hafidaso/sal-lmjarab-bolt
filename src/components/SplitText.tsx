@@ -87,7 +87,7 @@ const SplitText: React.FC<SplitTextProps> = ({
     // Default: split by chars
     return text.split('').map((char, i) => (
       <span key={i} className="split-text-char inline-block">
-        {char === ' ' ? '\u00A0' : char}
+        {char === ' ' ? '\u00A0' : char === '\n' ? <br /> : char}
       </span>
     ));
   };
