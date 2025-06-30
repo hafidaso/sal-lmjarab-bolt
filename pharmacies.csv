@@ -1,0 +1,7 @@
+id,name,phone,address,city,country,open_hours,profile_url
+1,La Grande Pharmacie,+212537709148,"17 Rue Abou Faris El Marini",Rabat,Morocco,"9:00-13:00;15:00-19:00",/pharmacy/grande-rabat
+2,Pharmacie Souika,+212537703036,"172 Rue Souika, Medina",Rabat,Morocco,"24/7 emergency",/pharmacy/souika
+3,Pharmacie Imam Ali,+212xxxxxxx,"23 Rue Imam Malik",Fes,Morocco,"8:00-22:00",/pharmacy/imam-ali-fes
+4,Pharmacie La Criée,+212535606731,"Hay al Amane, Bensouda",Fes,Morocco,"24/7 on-call",/pharmacy/la-criee
+5,Pharmacie Boubana,+212539935360,"138B Route Rahrah",Tanger,Morocco,"8:00-21:00",/pharmacy/boubana
+6,Pharmacie Assabr,+212550091237,"76 Lotiss. Méditerranée",Tanger,Morocco,"On-call",/pharmacy/assabr

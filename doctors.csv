@@ -1,0 +1,6 @@
+id,name,specialty,phone,email,address,city,country,rating,availability,profile_url
+1,Dr Mounia Sabri,"General Practitioner; Nutritionist; Sports Medicine",+212xxxxxxx,mounia@example.com,"Univ. Multidisciplinary Clinic, Casablanca",Casablanca,Morocco,4.7,2025-07-02T10:00:00Z,/doctor/mounia-sabri
+2,Dr Mariam Ziani,"General Practitioner; Diabetologist; Nutritionist",+212xxxxxxx,mariam@example.com,"N12 Rue Favreau, Ghandi, Casablanca",Casablanca,Morocco,4.6,2025-07-03T09:00:00Z,/doctor/mariam-ziani
+3,Dr Mohamed Bennani,"Cardiologist; Sports Medicine",+212xxxxxxx,mohamed@example.com,"40 Rue des Hôpitaux, CHU Ibn Rochd, Casablanca",Casablanca,Morocco,4.8,2025-07-04T11:00:00Z,/doctor/mohamed-bennani
+4,Dr Myriem Alaoui,Internist,+212xxxxxxx,myriem@example.com,"Résidence SAMI, Bourgogne, Casablanca",Casablanca,Morocco,4.5,2025-07-05T14:00:00Z,/doctor/myriem-alaoui
+5,Dr Anis Achargui,"Sports Medicine; Traumatologist-Orthopedist",+212xxxxxxx,anis@example.com,"105 Av. 2 Mars, Orthopedic Center ORTHOS, Casablanca",Casablanca,Morocco,4.4,2025-07-06T09:00:00Z,/doctor/anis-achargui

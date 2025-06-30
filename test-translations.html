@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .language-selector {
+            margin-bottom: 20px;
+        }
+        .translation-example {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        [dir="rtl"] {
+            direction: rtl;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Translation Test Page</h1>
+    
+    <div class="language-selector">
+        <label for="language">Select Language:</label>
+        <select id="language" onchange="changeLanguage(this.value)">
+            <option value="en">🇺🇸 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="ar">🇲🇦 العربية</option>
+        </select>
+    </div>
+
+    <div class="translation-example">
+        <h2 id="hero-title">Loading...</h2>
+        <p id="hero-subtitle">Loading...</p>
+    </div>
+
+    <div class="translation-example">
+        <h3>Navigation</h3>
+        <ul>
+            <li id="nav-home">Loading...</li>
+            <li id="nav-search">Loading...</li>
+            <li id="nav-pharmacies">Loading...</li>
+        </ul>
+    </div>
+
+    <div class="translation-example">
+        <h3>Language Names</h3>
+        <ul>
+            <li id="lang-english">Loading...</li>
+            <li id="lang-french">Loading...</li>
+            <li id="lang-arabic">Loading...</li>
+        </ul>
+    </div>
+
+    <script>
+        // Sample translations (simplified version)
+        const translations = {
+            en: {
+                'hero.title': 'Morocco\'s #1 Doctor Review Platform 🇲🇦',
+                'hero.subtitle': 'Find Morocco\'s best healthcare professionals — rated by people like you.',
+                'nav.home': 'Home',
+                'nav.search': 'Find Doctors',
+                'nav.pharmacies': 'Pharmacies',
+                'language.english': 'English',
+                'language.french': 'French',
+                'language.arabic': 'Arabic'
+            },
+            fr: {
+                'hero.title': 'Plateforme n°1 d\'avis sur les médecins au Maroc 🇲🇦',
+                'hero.subtitle': 'Trouvez les meilleurs professionnels de santé au Maroc — évalués par des personnes comme vous.',
+                'nav.home': 'Accueil',
+                'nav.search': 'Trouver des médecins',
+                'nav.pharmacies': 'Pharmacies',
+                'language.english': 'Anglais',
+                'language.french': 'Français',
+                'language.arabic': 'Arabe'
+            },
+            ar: {
+                'hero.title': 'المنصة الأولى لتقييم الأطباء في المغرب 🇲🇦',
+                'hero.subtitle': 'اعثر على أفضل المتخصصين في الرعاية الصحية في المغرب — مقيمون من أشخاص مثلك.',
+                'nav.home': 'الرئيسية',
+                'nav.search': 'البحث عن أطباء',
+                'nav.pharmacies': 'الصيدليات',
+                'language.english': 'الإنجليزية',
+                'language.french': 'الفرنسية',
+                'language.arabic': 'العربية'
+            }
+        };
+
+        function changeLanguage(lang) {
+            // Set document direction
+            if (lang === 'ar') {
+                document.documentElement.dir = 'rtl';
+                document.documentElement.lang = 'ar';
+            } else {
+                document.documentElement.dir = 'ltr';
+                document.documentElement.lang = lang;
+            }
+
+            // Update translations
+            document.getElementById('hero-title').textContent = translations[lang]['hero.title'];
+            document.getElementById('hero-subtitle').textContent = translations[lang]['hero.subtitle'];
+            document.getElementById('nav-home').textContent = translations[lang]['nav.home'];
+            document.getElementById('nav-search').textContent = translations[lang]['nav.search'];
+            document.getElementById('nav-pharmacies').textContent = translations[lang]['nav.pharmacies'];
+            document.getElementById('lang-english').textContent = translations[lang]['language.english'];
+            document.getElementById('lang-french').textContent = translations[lang]['language.french'];
+            document.getElementById('lang-arabic').textContent = translations[lang]['language.arabic'];
+        }
+
+        // Initialize with English
+        changeLanguage('en');
+    </script>
+</body>
+</html> 

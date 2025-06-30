@@ -1,0 +1,4 @@
+id,name,type,phone,address,city,country,website,profile_url
+1,Hôpital Privé International de Casablanca,Private Hospital,+212xxxxxxx,"Angle Bd Bir Anzarane & Abou Ishak Shirazi, Maarif, Casablanca",Casablanca,Morocco,www.hpic.ma,/hospital/hpic
+2,CHU Ibn Rochd,General Hospital,+212xxxxxxx,"Rue des Hôpitaux, Casablanca",Casablanca,Morocco,www.chuibnrocd.ma,/hospital/chu-ibn-rochd
+3,Clinic ORTHOS,Orthopedic Center,+212xxxxxxx,"105 Av. 2 Mars, Casablanca",Casablanca,Morocco,www.orthos-casa.ma,/hospital/orthos

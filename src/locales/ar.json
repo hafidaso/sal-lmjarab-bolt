@@ -1,0 +1,125 @@
+{
+  "nav.home": "الرئيسية",
+  "nav.search": "البحث عن أطباء",
+  "nav.pharmacies": "الصيدليات",
+  "nav.findFacility": "البحث عن منشأة",
+  "nav.topHospitals": "أفضل المستشفيات",
+  "nav.hospitalComparison": "مقارنة المستشفيات",
+  "nav.blog": "المدونة",
+  "nav.aboutUs": "من نحن",
+  "nav.login": "تسجيل الدخول",
+  "nav.register": "التسجيل",
+  "nav.dashboard": "لوحة التحكم",
+  "nav.logout": "تسجيل الخروج",
+  "hero.title": "المنصة الأولى لتقييم الأطباء في المغرب 🇲🇦",
+  "hero.subtitle": "اعثر على أفضل المتخصصين في الرعاية الصحية في المغرب — مقيمون من أشخاص مثلك.",
+  "search.placeholder": "البحث عن أطباء أو تخصصات أو حالات...",
+  "search.location": "الموقع",
+  "search.button": "بحث",
+  "filter.insurance": "التأمين",
+  "filter.gender": "الجنس",
+  "filter.language": "اللغة",
+  "filter.rating": "التقييم",
+  "filter.distance": "المسافة",
+  "insurance.cnss": "الصندوق الوطني للضمان الاجتماعي",
+  "insurance.ramed": "راميد",
+  "insurance.private": "خاص",
+  "gender.male": "ذكر",
+  "gender.female": "أنثى",
+  "language.arabic": "العربية",
+  "language.french": "الفرنسية",
+  "language.english": "الإنجليزية",
+  "rating.excellent": "ممتاز (4.5+)",
+  "rating.good": "جيد (4.0+)",
+  "rating.average": "متوسط (3.0+)",
+  "book.appointment": "حجز موعد",
+  "view.profile": "عرض الملف الشخصي",
+  "reviews.title": "تقييمات المرضى",
+  "reviews.write": "كتابة تقييم",
+  "reviews.verified": "مريض موثق",
+  "login.title": "تسجيل الدخول إلى حسابك",
+  "login.email": "البريد الإلكتروني",
+  "login.password": "كلمة المرور",
+  "login.button": "تسجيل الدخول",
+  "login.register": "ليس لديك حساب؟ سجل",
+  "register.title": "إنشاء حسابك",
+  "register.name": "الاسم الكامل",
+  "register.role": "أنا",
+  "register.patient": "مريض",
+  "register.provider": "مقدم خدمات صحية",
+  "register.button": "إنشاء حساب",
+  "register.login": "لديك حساب؟ سجل الدخول",
+  "dashboard.welcome": "مرحباً بعودتك",
+  "dashboard.analytics": "التحليلات",
+  "dashboard.profile": "الملف الشخصي",
+  "dashboard.reviews": "التقييمات",
+  "dashboard.appointments": "المواعيد",
+  "footer.patients": "للمرضى",
+  "footer.providers": "لمقدمي الخدمات",
+  "footer.partners": "للشركاء",
+  "footer.company": "شركتنا",
+  "chat.title": "المساعد الصحي الافتراضي",
+  "chat.placeholder": "اسألني أي شيء عن الصحة...",
+  "chatbot.suggestions.findDoctor": "البحث عن طبيب",
+  "chatbot.suggestions.symptoms": "فحص الأعراض",
+  "chatbot.suggestions.emergency": "مساعدة طارئة",
+  "chatbot.suggestions.appointment": "حجز موعد",
+  "chatbot.suggestions.insurance": "معلومات التأمين",
+  "chatbot.suggestions.pharmacy": "البحث عن صيدلية",
+  "chatbot.suggestions.records": "السجلات الطبية",
+  "chatbot.suggestions.reviews": "تقييمات الأطباء",
+  "chatbot.errors.technical": "عذراً، لدي صعوبات تقنية. يرجى المحاولة مرة أخرى.",
+  "chatbot.errors.speechNotSupported": "التعرف على الكلام غير مدعوم في متصفحك.",
+  "chatbot.transfer.success": "أقوم بتوصيلك بممثل بشري. يرجى الانتظار...",
+  "chatbot.emergency.contacts": "🚨 **أرقام الطوارئ** 🚨\n\n• **الإسعاف**: 15\n• **الشرطة**: 19\n• **المطافئ**: 15\n• **مركز مكافحة السموم**: 0537-77-77-77\n\n**إذا كنت تعاني من حالة طبية طارئة، يرجى الاتصال بـ 15 فوراً أو الذهاب إلى أقرب غرفة طوارئ.**",
+  "chatbot.emergency.call": "اتصال الطوارئ",
+  "chatbot.location.prompt": "نود أن نعرض لك مقدمي الرعاية الصحية القريبين منك. هل تريد مشاركة موقعك؟",
+  "chatbot.location.confirmation": "شكراً لك! سأستخدم موقعك لتقديم توصيات صحية أكثر صلة.",
+  "chatbot.location.denied": "أفهم. يمكنك البحث عن خدمات الرعاية الصحية عن طريق تحديد موقعك يدوياً.",
+  "settings.title": "الإعدادات",
+  "settings.description": "إدارة تفضيلات حسابك وإعدادات الخصوصية",
+  "settings.back": "رجوع",
+  "settings.account": "الحساب",
+  "settings.notifications": "الإشعارات",
+  "settings.privacy": "الخصوصية",
+  "settings.preferences": "التفضيلات",
+  "settings.profileInfo": "معلومات الملف الشخصي",
+  "settings.fullName": "الاسم الكامل",
+  "settings.email": "البريد الإلكتروني",
+  "settings.phone": "رقم الهاتف",
+  "settings.security": "الأمان",
+  "settings.twoFactorAuth": "المصادقة الثنائية",
+  "settings.twoFactorAuthDesc": "إضافة طبقة أمان إضافية لحسابك",
+  "settings.sessionTimeout": "مهلة انتهاء الجلسة",
+  "settings.sessionTimeoutDesc": "تسجيل الخروج تلقائياً بعد عدم النشاط",
+  "settings.minutes": "دقائق",
+  "settings.hours": "ساعات",
+  "settings.notificationPreferences": "تفضيلات الإشعارات",
+  "settings.emailNotifications": "إشعارات البريد الإلكتروني",
+  "settings.emailNotificationsDesc": "استلام التحديثات عبر البريد الإلكتروني",
+  "settings.smsNotifications": "إشعارات الرسائل النصية",
+  "settings.smsNotificationsDesc": "استلام التحديثات عبر الرسائل النصية",
+  "settings.appointmentReminders": "تذكيرات المواعيد",
+  "settings.appointmentRemindersDesc": "التذكير بالمواعيد القادمة",
+  "settings.marketingEmails": "رسائل البريد الإلكتروني التسويقية",
+  "settings.marketingEmailsDesc": "استلام المحتوى الترويجي والتحديثات",
+  "settings.privacyPreferences": "تفضيلات الخصوصية",
+  "settings.locationSharing": "مشاركة الموقع",
+  "settings.locationSharingDesc": "السماح بتتبع الموقع للخدمات القريبة",
+  "settings.dataAnalytics": "تحليلات البيانات",
+  "settings.dataAnalyticsDesc": "المساعدة في تحسين خدماتنا ببيانات مجهولة",
+  "settings.dataManagement": "إدارة البيانات",
+  "settings.downloadData": "تحميل بياناتي",
+  "settings.deleteAccount": "حذف الحساب",
+  "settings.displayPreferences": "تفضيلات العرض",
+  "settings.language": "اللغة",
+  "settings.theme": "المظهر",
+  "settings.auto": "تلقائي",
+  "settings.light": "فاتح",
+  "settings.dark": "داكن",
+  "settings.saveChanges": "حفظ التغييرات",
+  "settings.profileUpdated": "تم تحديث الملف الشخصي بنجاح!",
+  "settings.profileUpdateError": "فشل في تحديث الملف الشخصي. يرجى المحاولة مرة أخرى.",
+  "settings.settingsSaved": "تم حفظ الإعدادات بنجاح!",
+  "settings.saveError": "فشل في حفظ الإعدادات. يرجى المحاولة مرة أخرى."
+}
