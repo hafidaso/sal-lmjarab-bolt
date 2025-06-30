@@ -141,7 +141,7 @@ const HomePage = () => {
               transition={{ duration: 0.5 }}
             >
               <SplitText
-                text="Morocco's #1 Doctor Review Platform"
+                text="Morocco's #1 Doctor Review <br /> Platform"
                 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
                 delay={60}
                 duration={0.6}
