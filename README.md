@@ -105,8 +105,7 @@ Providers can:
 
 ## 🌐 Try It Out
 
-- [Live Demo](https://your-demo-url.com)
-- [GitHub Repository](https://github.com/yourusername/sal-lmjarab)
+- [Live Demo](https://sal-lmjarab.netlify.app/)
 
 ---
 
