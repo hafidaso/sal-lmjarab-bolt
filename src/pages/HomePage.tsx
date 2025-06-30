@@ -141,19 +141,20 @@ const HomePage = () => {
               transition={{ duration: 0.5 }}
             >
               <SplitText
-                text="Morocco's #1 Doctor Review <br /> Platform"
-                className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
-                delay={60}
-                duration={0.6}
-                ease="power3.out"
-                splitType="chars"
-                from={{ opacity: 0, y: 40 }}
-                to={{ opacity: 1, y: 0 }}
-                threshold={0.1}
-                rootMargin="-100px"
-                textAlign="center"
-                onLetterAnimationComplete={() => {}}
-              />
+                  className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
+                  delay={60}
+                  duration={0.6}
+                  ease="power3.out"
+                  splitType="chars"
+                  from={{ opacity: 0, y: 40 }}
+                  to={{ opacity: 1, y: 0 }}
+                  threshold={0.1}
+                  rootMargin="-100px"
+                  textAlign="center"
+                  onLetterAnimationComplete={() => {}}
+              >
+                Morocco's #1 Doctor Review<br />Platform
+              </SplitText>
               <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
                 Find Morocco's best healthcare professionals — rated by people like you.
               </p>
